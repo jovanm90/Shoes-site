@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/navbar.css" />
+    <link rel="stylesheet" href="/styles/slider.css">
+    <link rel="stylesheet" href="/styles/products.css">
+    <link rel="stylesheet" href="/styles/payment.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+    <title>Patike</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-top">
+        <div class="nav-item">
+          <img src="/images/tikepa-logo3.png" alt="" class="logo" />
+        </div>
+        <div class="search">
+          <input type="text" placeholder="Search" class="search-input" />
+          <img src="/images/search.png" alt="" class="search-icon" />
+        </div>
+        <div class="log-in">
+          <span>Prijavi se</span>
+        </div>
+        <div class="log-in-box">
+          <h1 class="log-title">PRIJAVA</h1>
+          <label>Email adresa</label>
+          <input class="email" type="text">
+          <label>LOZINKA</label>
+          <input type="password">
+          <button class="log-in-btn">ULOGUJ SE</button>
+          <span class="close-log-in">X</span>
+        </div>
+      </div>
+      <div class="nav-bottom">
+        <h3 class="menu-item">AIR FORCE</h3>
+        <h3 class="menu-item">JORDAN</h3>
+        <h3 class="menu-item">BLAZER</h3>
+        <h3 class="menu-item">CRATER</h3>
+        <h3 class="menu-item">HIPPIE</h3>
+      </div>
+    </nav>
+    <div class="slider">
+      <div class="slider-wrapper">
+        <div class="slider-item">
+          <img src="/images/air.png" alt="" class="slider-img" />
+          <div class="slider-bg">
+              <h1 class="slider-title">AIR FORCE </br> NOVA </br> KOLEKCIJA</h1>
+              <h2 class="slider-price">10500 RSD</h2>
+              <a href="#product">
+              <button class="buy-button">KUPITE</button>
+              </a>
+          </div>
+        </div>
+        <div class="slider-item">
+            <img src="/images/jordan.png" alt="" class="slider-img" />
+            <div class="slider-bg">
+                <h1 class="slider-title">JORDAN </br> NOVA </br> KOLEKCIJA</h1>
+                <h2 class="slider-price">11499 RSD</h2>
+                <a href="#product">
+                <button class="buy-button">KUPITE</button>
+                </a>
+            </div>
+          </div>
+          <div class="slider-item">
+            <img src="/images/blazer.png" alt="" class="slider-img" />
+            <div class="slider-bg">
+                <h1 class="slider-title">BLAZER </br> NOVA </br> KOLEKCIJA</h1>
+                <h2 class="slider-price">9800 RSD</h2>
+                <a href="#product">
+                <button class="buy-button">KUPITE</button>
+                </a>
+            </div>
+          </div>
+          <div class="slider-item">
+            <img src="/images/crater.png" alt="" class="slider-img" />
+            <div class="slider-bg">
+                <h1 class="slider-title">CRATER </br> NOVA </br> KOLEKCIJA</h1>
+                <h2 class="slider-price">8400 RSD</h2>
+                <a href="#product">
+                <button class="buy-button">KUPITE</button>
+                </a>
+            </div>
+          </div>
+          <div class="slider-item">
+            <img src="/images/hippie.png" alt="" class="slider-img" />
+            <div class="slider-bg">
+                <h1 class="slider-title">HIPPIE </br> NOVA </br> KOLEKCIJA</h1>
+                <h2 class="slider-price">7500 RSD</h2>
+                <a href="#product">
+                <button class="buy-button">KUPITE</button>
+                </a>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="product" id="product">
+      <img src="/images/air.png" alt="" class="product-img">
+      <div class="product-details">
+        <h1 class="product-title">AIR FORCE</h1>
+        <h2 class="product-price">10500 RSD</h2>
+        <p class="product-desc"></p>
+        <div class="colors">
+          <div class="color"></div>
+          <div class="color"></div>
+        </div>
+        <div class="sizes">
+          <div class="size">42</div>
+          <div class="size">44</div>
+          <div class="size">45</div>
+        </div>
+        <button class="product-btn">KUPI ODMAH</button>
+    </div>
+    <div class="payment">
+      <h1 class="pay-title">Licne Informacije</h1>
+      <label>Ime i Prezime</label>
+      <input type="text" placeholder="Jovan Jovanovic" required="" class="pay-input">
+      <label>Telefon</label>
+      <input type="text" placeholder="+3816012345" class="pay-input">
+      <label>Adresa</label>
+      <input type="text" placeholder="Petra Petrovica 1" class="pay-input">
+      <h1 class="pay-title">Informacije o kartici</h1>
+      <div class="card-icons">
+        <img src="/images/visa.png" width="40px" alt="" class="card-icon">
+        <img src="/images/master.png" width="40px" alt="" class="card-icon">
+      </div>
+      <input type="password" placeholder="Broj kartice" class="pay-input">
+      <div class="card-info">
+        <input type="text" placeholder="mm" class="pay-input-card">
+        <input type="text" placeholder="yyyy" class="pay-input-card">
+        <input type="password" placeholder="cvv" class="pay-input-card">
+      </div>
+      <button class="pay-btn">POTVRDI</button>
+      <span class="close">X</span>
+    </div>
+   </div>
+   <footer>
+     <div class="footer-left">
+       <div class="footer-menu">
+         <h1 class="f-menu-title">INFORMACIJE O KOMPANIJI</h1>
+         <ul class="f-list">
+           <li class="list-item"> O nama</li>
+           <li class="list-item"> Opšta pravila privatnosti</li>
+           <li class="list-item">Zaposlenje</li>
+           <li class="list-item">Žalbe i primedbe</li>
+         </ul>
+       </div>
+       <div class="footer-menu">
+        <h1 class="f-menu-title">KORISNIČKA PODRŠKA</h1>
+        <ul class="f-list">
+          <li class="list-item">Proveri status porudžbine</li>
+          <li class="list-item">Pozovite nas besplatno 080001111</li>
+          <li class="list-item">Korisnička podrška</li>
+        </ul>
+      </div>
+      <div class="footer-menu">
+        <h1 class="f-menu-title">POMOĆ PRI ONLINE KUPOVINI</h1>
+        <ul class="f-list">
+          <li class="list-item">Uslovi korišćenja i prodaje</li>
+          <li class="list-item">Politika privatnosti</li>
+          <li class="list-item">Kako kupiti</li>
+          <li class="list-item">Plaćanje karticama</li>
+        </ul>
+      </div>
+     </div>
+     <div class="footer-right">
+       <div class="footer-right-menu">
+         <h1 class="f-menu-title">NEWSLETTER</h1>
+         <div class="f-mail">
+         <input type="text" class="f-input" id="news-input">
+         <button class="f-button">POŠALJI</button>
+         <div class="msg"></div>
+         </div>
+       </div>
+       <div class="footer-right-menu">
+         <div class="f-icons">
+           <img src="/images/facebook.png" alt="" class="f-icon">
+           <img src="/images/instagram.png" alt="" class="f-icon">
+           <img src="/images/whatsapp.png" alt="" class="f-icon">
+         </div>
+       </div>
+       <div class="footer-right-menu">
+         <span class="copyright">&copy; 2022. JovaBrada</span>
+       </div>
+     </div>
+   </footer>
+    <script src="/index.js" type="module"></script>
+  </body>
+</html>

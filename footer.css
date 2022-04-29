@@ -1,0 +1,66 @@
+footer {
+    display: flex;
+}
+
+.footer-left {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.f-menu-title {
+    font-size: 16px;
+}
+
+.f-list {
+    padding: 0;
+    list-style: none;
+    font-size: 15px;
+}
+
+.list-item {
+    margin-bottom: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+.list-item:hover {
+    border-bottom: 1px solid black;
+    border-bottom-width: 2px;
+    transition: 0.5s;
+}
+
+.footer-right {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.f-input {
+    padding: 5px;
+}
+
+.f-button {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.f-icons {
+    display: flex;
+}
+
+.f-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.copyright {
+    font-weight: 400;
+    font-size: 16px;
+}
